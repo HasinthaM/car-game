@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/rootLayout"
+    android:gravity="center"
+    android:background="@drawable/image4"
+
+
+
+    tools:context=".MainActivity"
+    >
+
+<!--    <TextView-->
+<!--        android:id="@+id/name"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="325dp"-->
+<!--        android:fontFamily="@font/amarante"-->
+<!--        android:text="Nitro Car Racing"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="#E8EF9F"-->
+<!--        android:textSize="90sp" />-->
+
+    <TextView
+        android:id="@+id/heighscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:fontFamily="sans-serif-black"
+        android:text="High Score : 124"
+        android:textAlignment="center"
+        android:textColor="#FF9800"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:background="#D5B041"
+        android:fontFamily="sans-serif-black"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:textColor="#101010"
+        android:textSize="28sp" />
+
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="139dp"
+        android:layout_height="67dp"
+        android:layout_margin="15dp"
+        android:text="Start"
+        android:textSize="24sp"
+        app:backgroundTint="#60BC64" />
+
+</LinearLayout>
